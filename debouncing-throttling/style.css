@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box; /* add this to include padding and border in the width and height */
+}
+
+body {
+    font-family: Arial, sans-serif; /* add a font family */
+    text-align: center; /* center all the content */
+    padding: 20px; /* add some padding to the body */
+}
+
+.container {
+    max-width: 400px; /* set a max width for the container */
+    margin: 40px auto; /* center the container horizontally */
+    padding: 20px; /* add some padding to the container */
+    background-color: #f9f9f9; /* add a background color to the container */
+    border: 1px solid #ddd; /* add a border to the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a box shadow to the container */
+}
+
+h1 {
+    font-size: 24px; /* use a specific font size instead of 'large' */
+    font-weight: bold;
+    margin-bottom: 20px; /* add some space between the h1 and the button */
+}
+
+.Increment-button {
+    background-color: #4CAF50; /* add a background color to the button */
+    color: #fff; /* add a text color to the button */
+    padding: 10px 10px ; /* add some padding to the button */
+    border: none; /* remove the border */
+    border-radius: 5px; /* add a border radius to the button */
+    cursor: pointer; /* change the cursor to a pointer on hover */
+}
+
+.Increment-button:hover {
+    background-color: #3e8e41; /* change the background color on hover */
+}
+
+.increment_count, .triggered_count_debounce,.triggered_count_throttle  {
+    font-weight: bold; /* make the counts bold */
+    color: #666; /* add a text color to the counts */
+}
+
+p {
+    margin-bottom: 10px; /* add some space between the paragraphs */
+}

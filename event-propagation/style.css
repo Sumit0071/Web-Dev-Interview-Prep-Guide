@@ -1,0 +1,11 @@
+body * {
+    margin: 10px;
+    border: 1px solid red;
+    padding: 10px;
+}
+.button{
+    cursor: pointer;
+    background-color: blueviolet;
+    border: 1px;
+    border-radius:0.5rem ;
+}

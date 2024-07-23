@@ -319,7 +319,7 @@ function App() {
     </MyContext.Provider>
   );
 }
-
+```
 
 ##For more reference checkout this repo:
 <link href="https://github.com/aatul/ReactJS-and-Redux-Questions-Answers">React-redux questions</link>
